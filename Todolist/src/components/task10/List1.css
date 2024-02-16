@@ -1,0 +1,53 @@
+.list-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .list-container input {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .list-container button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .list-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-container li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .list-container li:last-child {
+    border-bottom: none;
+  }
+  
+  .list-container span {
+    font-weight: bold;
+  }
