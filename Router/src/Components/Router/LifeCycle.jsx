@@ -6,7 +6,11 @@ const LifeCycle = () => {
         let url='https://jsonplaceholder.typicode.com/users'
         fetch(url).then((res)=>res.json()).then((data)=>setData(data))
 
-    },[LifeCycle])
+   return function cleanUp(){
+    console.log('hello')
+   }
+
+    },[])
   return (
     <div>
         
@@ -21,7 +25,7 @@ const LifeCycle = () => {
                 )
 
             })}
-    
+    <button >Submit</button>
     </div>
   )
 }
